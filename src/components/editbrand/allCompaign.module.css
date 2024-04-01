@@ -1,0 +1,80 @@
+
+.headerFotter{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 100vh; 
+}
+
+.header{
+    display: flex;
+    color : DodgerBlue;
+    font-size: larger;
+    font-weight: 600;
+    padding-left: 5px;
+    border-bottom: 1px solid;
+}
+.wrapper {
+  display: flex;
+  width: 77vw;
+  height: 30px;
+  padding-top: 15px;
+}
+.left{
+  display: flex;
+  flex: 1;
+  padding-left: 10px;
+
+}
+.right{
+  display: flex;
+  flex: 1;
+  padding-right: 10px;
+  justify-content: flex-end;
+  gap: 5px;
+}
+.midText {
+  height: 30px;
+  border: 1px solid rgb(142, 186, 231);
+  border-radius: 5px;
+}
+.wrapperbottom{
+  display: flex;
+  padding-top: 25px;
+  width: 77vw;
+  border-bottom: 1px solid;
+}
+.bleft{
+  display: flex;
+  width: 25vw;
+  justify-content: space-between;
+  padding: 0 25px 0 10px;
+  
+}
+.bright{
+  display: flex;
+  flex: 1;
+  padding-right: 10px;
+  justify-content:space-around;
+}
+  .fotter{
+    display: flex;
+    width: 77vw;
+}
+.fleft{
+  display: flex;
+  width: 30vw;
+  font-size: 11px;
+  font-weight: 600;
+  justify-content: space-between;
+  padding: 0 25px 0 10px;
+  
+}
+.fright{
+  display: flex;
+  flex: 1;
+  padding-right: 10px;
+  font-size: 11px;
+  font-weight: 700;
+  justify-content:space-around;
+}

@@ -1,0 +1,207 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.leftContainer label{
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  margin: 5px;
+  width: 30.5vw;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.leftContainer input{
+  display: flex;
+  border: 1px solid rgb(174, 174, 239);
+  width: 25vw;
+  height: 25px;
+  padding-left: 10px; 
+  border-radius: 5px;
+}
+@media screen and (max-width: 600px) {
+  .leftContainer input {
+      width: calc(100% - 20px);
+      
+  }
+}
+.leftContainer .logoBrand{
+  border: none;
+  height: 30px;
+}
+/* left container End  */
+.rightContainer{
+  display: flex;
+  flex-direction: column;
+ flex: 1; 
+  width: 40vw;
+  padding-left: 5vw;
+  height:auto; 
+}
+@media screen and (max-width: 600px) {
+  .rightContainer  {
+      width: calc(100% - 20px);
+      
+  }
+}
+.rightContainer p{
+padding: 0 5px 0 5px;
+font-weight: 500;
+border: 1px solid cornflowerblue;
+background-color: rgb(209, 214, 216);
+color: rgb(6, 61, 85);
+}
+
+.button {
+height: 30px;
+border: 1px solid slategrey;
+font-size: larger;
+font-weight: 520;
+padding: 0 15px; 
+cursor: pointer;
+display: flex;
+align-items: center;
+}
+.button:hover{
+color: #0056b3;
+
+}
+
+
+
+
+.loginDetail {
+display: flex;
+flex-direction: column;
+padding-top: 10px;
+gap: 10px;
+}
+
+.inputRow {
+display: flex;
+align-items: center;
+}
+
+.inputRow label {
+width: auto; 
+margin-right: 5px; 
+font-weight: 600;
+}
+
+.inputRow input[type="text"]{
+width: 20vw;
+height: 20px;
+}
+.loginDetail select[type="dropdown"]{
+display: flex;
+height: 25px;
+
+}
+
+.inputRow span {
+flex: 1;
+color:rgb(89, 98, 70);
+}
+.inputPara{
+font-size: smaller;
+font-weight: 600;
+width: 30vw;
+}
+@media screen and (max-width: 600px) {
+  .inputPara{
+      width: calc(100% - 20px);
+      
+  }
+}
+
+.empPrivileges {
+display: flex;
+flex-direction: column;
+padding-top: 10px;
+gap: 10px;
+}
+
+.firstPara {
+display: flex;
+font-size: smaller;
+font-weight: 600;
+}
+
+.secondPara {
+display: flex;
+font-size: smaller;
+font-weight: 600;
+border: 2px dotted green;
+}
+
+.secondPara ul li {
+text-decoration: none;
+list-style: none;
+padding-left: 10px;
+}
+
+.compaignSent {
+display: flex;
+flex-direction: column;
+padding-top: 10px;
+gap: 10px;
+}
+
+.firstPara {
+display: flex;
+font-size: smaller;
+font-weight: 600;
+}
+
+.secondPara {
+display: flex;
+font-size: smaller;
+font-weight: 600;
+border: 2px dotted green;
+}
+
+.secondPara ul li {
+text-decoration: none;
+list-style: none;
+padding-left: 10px;
+}
+
+.saveButton {
+border: none;
+background-color: rgb(162, 185, 185);
+padding: 8px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 8px;
+}
+
+.fotter{
+display: flex;
+flex-direction: column;
+width: 70vw;
+padding-left: 30px;
+gap: 10px;
+}
+.fotterPara{
+display: flex;
+font-size: smaller;
+font-weight: 600;
+border: 1px solid;
+background-color: #e6cfc7;
+color: rgb(235, 117, 59);
+}
+.fotterInput label {
+width: auto; 
+font-weight: 600;
+}
+
+.fotter input[type="text"]{
+width: auto;
+height: 25px;
+}

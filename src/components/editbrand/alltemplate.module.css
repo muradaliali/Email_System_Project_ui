@@ -1,0 +1,15 @@
+.mcontainer{
+    width: 76vw;
+    padding-left: 3px;
+    height: 100vh;
+  }
+  
+  .header{
+    display: flex;
+    color : DodgerBlue;
+    font-size: larger;
+    font-weight: 600;
+    padding-left: 5px;
+    border-bottom: 1px solid;
+  }
+    

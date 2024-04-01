@@ -1,0 +1,75 @@
+.container {
+    width: 100vw;
+    position: relative;
+    /* Ensure container is positioned relative to its containing block */
+    top: 140px;
+    /* Distance from the top of the containing block */
+    height: calc(100vh - 140px);
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.novContainer {
+    padding-left: 5px;
+    width: 20vw;
+    height: auto;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start ;
+    gap: 15px;
+    box-shadow: inset 5px 5px 5px -5px rgba(128, 109, 74, 0.7),
+                inset -5px 5px 5px -5px rgba(128, 109, 74, 0.7);
+   
+}
+@media screen and (max-width: 600px) {
+    .novContainer{
+        display:none;
+        width: 1vw;
+        
+    }
+  }
+   .novContainer span{
+    color: rgb(147, 129, 129);
+    padding-left: 5px;
+   }
+
+   h4{
+    padding-left: 5px;
+    padding-right: 20px;
+    display: flex;
+    gap: 90px;
+    .piArrow{
+        padding-left: 1px;
+        padding-top: 5px;
+    }
+   }
+
+   .piGiticon {
+    transform: rotate(90deg);    
+}
+
+   .pageContainer{
+    cursor: pointer;
+    padding-left: 5px;
+    
+   }
+  
+   .dropdown {
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 22vw;
+    width: 77vw;
+    height:auto;
+    box-shadow: inset 5px 5px 5px -5px rgba(128, 109, 74, 0.7),
+                inset -5px -5px 5px -5px rgba(128, 109, 74, 0.7);
+                
+}
+@media screen and (max-width: 600px) {
+    .dropdown{  
+        left: 1vw;
+        width: calc(100% - 20px);
+    }
+  }

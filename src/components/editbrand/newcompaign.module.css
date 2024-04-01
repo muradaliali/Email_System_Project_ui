@@ -1,0 +1,209 @@
+
+.mainContainer{
+    display: flex;
+    gap : 5px;
+  }
+  
+  .headerFotter{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+  }
+  
+  .header{
+    display: flex;
+    color : DodgerBlue;
+    font-size: larger;
+    font-weight: 600;
+    padding-left: 5px;
+    border-bottom: 1px solid;
+  }
+    .leftContainer{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    padding-left: 5px;
+    height:auto;
+    padding-top: 10px;
+  }
+  
+  .leftContainer label{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    margin: 5px;
+    width: 30.5vw;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .leftContainer input{
+    display: flex;
+    border: 1px solid rgb(174, 174, 239);
+    width: 15vw;
+    height: 25px;
+    padding-left: 10px; 
+    border-radius: 5px;
+  }
+  
+  .leftContainer .logoBrand{
+    border: none;
+    height: 30px;
+  }
+  /* left container End  */
+  
+    .rightContainer{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        width: 45vw;
+        height:auto; 
+  }
+  .ckeditor{
+    height: 40vh;
+  }
+  
+   .insideright{
+    display: flex;
+    padding-top: 10px;
+    gap: 10px;
+   }
+   
+   .insideright .left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+   }
+   .left label{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    width: 20.5vw;
+    font-size: 16px;
+    font-weight: 600;
+   }
+   .insideright .right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+   }
+   .right label{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+   
+    font-size: 11px;
+    font-weight: 800;
+   }
+   .insideright span{
+    color: red;
+    width: 20.5vw;
+    font-size: 11px;
+    font-weight: 600;
+   }
+  
+  .loginDetail {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 10px;
+  }
+  
+  .inputRow {
+    display: flex;
+    align-items: center;
+  }
+  
+  .inputRow label {
+    width: auto; 
+    margin-right: 5px; 
+    font-weight: 600;
+  }
+  
+  .inputRow input[type="text"]{
+    width: 20vw;
+    height: 20px;
+  }
+  .loginDetail select[type="dropdown"]{
+    display: flex;
+    height: 25px;
+    
+  }
+  .inputRow span {
+    flex: 1;
+    color:rgb(89, 98, 70);
+  }
+  .inputPara{
+    font-size: smaller;
+    font-weight: 600;
+    width: 30vw;
+  }
+  
+  .empPrivileges {
+   display: flex;
+   flex-direction: column;
+   padding-top: 10px;
+   gap: 10px;
+  }
+  
+  .firstPara {
+    display: flex;
+    font-size: smaller;
+    font-weight: 600;
+  }
+  
+  .secondPara {
+    display: flex;
+    font-size: smaller;
+    font-weight: 600;
+    border: 2px dotted green;
+  }
+    
+  .secondPara ul li {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10px;
+  }
+  
+  .compaignSent {
+   display: flex;
+   flex-direction: column;
+   padding-top: 10px;
+   gap: 10px;
+  }
+  
+  .firstPara {
+    display: flex;
+    font-size: smaller;
+    font-weight: 600;
+  }
+  
+  .secondPara {
+    display: flex;
+    font-size: smaller;
+    font-weight: 600;
+    border: 2px dotted green;
+  }
+    
+  .secondPara ul li {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10px;
+  }
+  
+  .saveButton {
+    border: none;
+    background-color: rgb(162, 185, 185);
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+

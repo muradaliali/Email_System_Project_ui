@@ -1,0 +1,181 @@
+
+.container {
+
+    width: 100vw;
+    position: relative;
+    /* Ensure container is positioned relative to its containing block */
+    top: 140px;
+    /* Distance from the top of the containing block */
+    height: calc(100vh - 140px);
+    display: flex;
+    flex-direction: column;
+}
+
+.tBoxContainer {
+    flex: 0.7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    width: 220px;
+    height: 100px;
+    margin: 0 5px;
+    border-radius: 5%;
+    color: white;
+    font-size: 25px;
+}
+
+.p1 {
+    color: DodgerBlue;
+    font-size: 25px;
+    border-bottom: 2px solid rgba(214, 210, 203, 0.7);
+}
+
+.logo {
+    display: flex;
+    padding-right: 15px;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.box1 {
+    flex: 2;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.box1 p {
+    font-size: medium;
+}
+
+/* Define colors for each box */
+.box:nth-child(1) {
+    background-color: DodgerBlue;
+}
+
+.box:nth-child(2) {
+    background-color: Tomato;
+}
+
+.box:nth-child(3) {
+    background-color: MediumSeaGreen;
+}
+
+.box:nth-child(4) {
+    background-color: SlateBlue;
+}
+
+.box:nth-child(5) {
+    background-color: orange;
+}
+
+.box:nth-child(6) {
+    background-color: Gray;
+}
+
+/* middle container */
+.midContainer {
+    flex: 0.3;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+}
+
+.midText {
+    height: 30px;
+    border: 1px solid rgb(142, 186, 231);
+    border-radius: 5px;
+}
+
+.midText:hover {
+    border: 1px solid dodgerblue;
+
+}
+/* middleContainer end */
+
+.lastContainer {
+    width: auto;
+    flex: 0.1;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    padding: 0 20px 5px 20px;
+    border-bottom: 2px solid rgba(214, 210, 203, 0.7);
+}
+.lastContainer span{
+    padding-left: 130px;
+}
+.freelance {
+font-size: 16px; 
+padding-left: 20px;
+
+}
+
+
+
+.bottomContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px 0 20px;
+    
+}
+.bleftContainer{
+    display: flex;
+    flex: 1;
+    gap: 25px;
+    color: DodgerBlue;
+}
+.brightContainer{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    font-size: x-large;
+    position: relative;
+}
+.lubox {
+    display: inline;
+    width: 40px;
+    height: 40px;
+    padding-left: 60px;
+    color: yellowgreen;
+    
+}
+/* how borger */
+.fabars{
+    position: relative;
+    display: block;
+    cursor: pointer;
+   }
+   .dropdown{
+       position: absolute;
+       display: block;
+       right : 0;
+       background-color: #f9f9f9;
+       min-width: 160px;
+       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+       z-index: 1; 
+   }
+   .dropdown a {
+       float: none;
+       font-size: 15px;
+       color: black;
+       padding: 12px 16px;
+       text-decoration: none;
+       display: block;
+       text-align: left;
+   }
+   a:hover {
+       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+       border-bottom: 2px solid #007bff;
+   }
+ 
+
+

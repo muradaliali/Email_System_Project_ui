@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100vw;
+  top: 140px;
+  /* position: relative;  */
+  position: absolute;
+  height: calc(100vh - 140px);  
+  overflow: hidden; 
+}
+/* ///// */
+
+
+.leftContainer label{
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  margin: 5px;
+  width: 30.5vw;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.leftContainer input{
+  display: flex;
+  border: 1px solid rgb(174, 174, 239);
+  width: 25vw;
+  height: 25px;
+  padding-left: 10px; 
+  border-radius: 5px;
+}
+@media screen and (max-width: 600px) {
+  .leftContainer input {
+      width: calc(100% - 20px);
+      
+  }
+}
+.leftContainer .logoBrand{
+  border: none;
+  height: 30px;
+}
+/* left container End  */

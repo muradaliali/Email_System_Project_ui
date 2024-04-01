@@ -1,0 +1,14 @@
+
+.container {
+    width: 100vw;
+    position: relative;
+    /* Ensure container is positioned relative to its containing block */
+    top: 140px;
+    /* Distance from the top of the containing block */
+    height: calc(100vh - 140px);
+    display: flex;
+    flex-direction: column;
+}
+
+
+
